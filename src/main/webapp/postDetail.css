@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.well {
+	background-color: pink;
+	width: 50%;
+	border-radius: 20px;
+	padding : 20px 10px 10px 10px;
+	margin : 0 auto;
+}
+.writer {
+	width:40%;
+	float: left;
+	text-align:left;
+	margin-left:20px;
+	margin: 15px 0px 25px 20px;
+	
+} 
+.date {
+	width:40%;
+	float: right;
+	text-align:right;
+	margin: 15px 20px 25px 0px;
+} 
+.info {
+	height:50px;
+	border: solid white;
+	border-width: 3px 0px;
+	
+}
+.post-contents{
+	background-color: white;
+	width: 90%;
+	text-align: left;
+	border-radius: 20px;
+	padding : 15px 20px 20px 20px;
+	margin : 40px auto;
+	
+}
+.home input{
+	background-color: white;
+	border-radius: 50rem;
+    border-color: white;
+    border: 1px solid transparent;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.button-group {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+}
+.edit {
+	display: inline-block;
+	background-color: white;
+	border-radius: 50rem;
+    border-color: white;
+    border: 1px solid transparent;
+    padding: 10px 40px 10px 40px;
+    margin-top: 10px;
+}
+.well:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+.home input:hover, .home input:focus, .button-group input:hover, .button-group input:focus{
+   background-color: white;
+   color: pink;
+}

@@ -1,0 +1,29 @@
+#result{
+	display:none;
+	background-color: pink;
+  	width: 50%;
+  	text-align: center;
+ 	border-radius: 20px;
+}
+.next {
+	background-color: white;
+	border-radius: 50rem;
+    border-color: white;
+    border: 1px solid transparent;
+    padding: 10px 40px 10px 40px;
+	margin: 10px 0px;
+}
+.next:hover, .next:focus{
+   background-color: white;
+   color: pink;
+}
+
+.resultname {
+	background-color: white;
+	width: 200px;
+	height:30px;
+	text-align: center;
+	border-radius: 20px;
+	padding : 20px 10px 10px 10px;
+	margin : 0 auto;
+}
